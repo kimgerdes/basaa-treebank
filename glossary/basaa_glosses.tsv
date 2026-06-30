@@ -1,0 +1,93 @@
+form	pos	gloss	english	french	features	conf	source
+# === Subject / agreement markers (these dominate the frequency list) ===
+me	PRON	1SG	I, me	je, moi	Person=1|Number=Sing	high	lit
+u	PRON	2SG	you (sg)	tu	Person=2|Number=Sing	high	lit+freq
+a	PRON	1.SBJ	he, she (cl.1)	il, elle	Person=3|Number=Sing|NounClass=Bantu1	high	lit+freq
+di	PRON	1PL.SBJ	we	nous	Person=1|Number=Plur	high	lit+freq
+ni	PRON	2PL.SBJ	you (pl)	vous	Person=2|Number=Plur	high	lit
+ba	PRON	2.SBJ	they (cl.2)	ils, elles	Person=3|Number=Plur|NounClass=Bantu2	high	lit+freq
+bés	PRON	1PL	we, us (indep.)	nous	Person=1|Number=Plur	high	freq
+we	PRON	2SG	you (indep.)	toi	Person=2|Number=Sing	high	freq
+nye	PRON	3SG	(s)he (indep.)	lui, elle	Person=3|Number=Sing	med	lit
+bo	PRON	3PL	they (indep.)	eux	Person=3|Number=Plur	med	freq
+# === Noun-class agreement / concord prefixes (top frequency tokens i,u,ma,li,mi,bi,hi,di) ===
+i	DET	AGR.cl9/7	(class 9/7 agreement)	(accord cl.9/7)	NounClass=Bantu9	high	lit+freq
+u	DET	AGR.cl3	(class 3 agreement)	(accord cl.3)	NounClass=Bantu3	high	freq
+li	DET	AGR.cl5	(class 5 agreement)	(accord cl.5)	NounClass=Bantu5	high	freq
+ma	DET	AGR.cl6	(class 6 agreement)	(accord cl.6)	NounClass=Bantu6	high	freq
+mi	DET	AGR.cl4	(class 4 agreement)	(accord cl.4)	NounClass=Bantu4	high	freq
+bi	DET	AGR.cl8	(class 8 agreement)	(accord cl.8)	NounClass=Bantu8	high	freq
+hi	DET	AGR.cl19	(class 19 agreement, dim.)	(accord cl.19)	NounClass=Bantu19	high	freq
+di	DET	AGR.cl13	(class 13 agreement, dim.pl)	(accord cl.13)	NounClass=Bantu13	med	freq
+# === Noun-class nominal prefixes (on nouns) ===
+mu-	PREF	CL1-	cl.1 (sg. person)	cl.1	NounClass=Bantu1	high	lit
+ɓa-	PREF	CL2-	cl.2 (pl. person)	cl.2	NounClass=Bantu2	high	lit
+mu-	PREF	CL3-	cl.3 (sg.)	cl.3	NounClass=Bantu3	high	lit
+mi-	PREF	CL4-	cl.4 (pl.)	cl.4	NounClass=Bantu4	high	lit
+li-	PREF	CL5-	cl.5 (sg.)	cl.5	NounClass=Bantu5	high	lit
+ma-	PREF	CL6-	cl.6 (pl.)	cl.6	NounClass=Bantu6	high	lit
+hi-	PREF	CL7/19-	cl.7/19 (sg., dim.)	cl.7/19	NounClass=Bantu19	high	lit
+bi-	PREF	CL8-	cl.8 (pl.)	cl.8	NounClass=Bantu8	high	lit
+di-	PREF	CL13-	cl.13 (dim. pl.)	cl.13	NounClass=Bantu13	med	lit
+# === Core function words ===
+le	SCONJ	COMP	that (complementizer/quotative)	que	_	high	lit
+ni	CCONJ	with, and	with, and	avec, et	_	high	lit+freq
+inyu	ADP	for, because.of	for, in order to	pour, afin de	_	high	lit+freq
+inyuki	ADV	why	why	pourquoi	_	med	lit
+ikédé	ADP	inside, in	inside, in	dans, à l'intérieur	_	high	freq
+ikit	ADP	on, above	on	sur	_	med	lit
+to	CCONJ	or, even	or, even, until	ou, même	_	high	freq
+tole	CCONJ	or	or	ou	_	high	freq
+ndi	CCONJ	but	but	mais	_	high	freq
+ibale	SCONJ	if	if	si	_	high	freq
+kiki	SCONJ	like, as	like, as	comme	_	high	freq
+ki	ADV	also, again	also, too	aussi, encore	_	high	freq
+hala	PRON	DEM	that, so	cela, ainsi	_	high	freq
+hana / hanano	ADV	now, here	now	maintenant, ici	_	med	freq
+nun / nunu	PRON	DEM.cl1	this one	celui-ci	NounClass=Bantu1	high	lit(NWS)
+# === Negation, TAM, auxiliaries ===
+bé	PART	NEG	not	ne...pas	Polarity=Neg	high	lit+freq
+nla	AUX	can, be.able	can, be able	pouvoir	_	high	freq
+yé	AUX	be	be (copula)	être	_	high	lit+freq
+gwéé	VERB	have	have	avoir	_	high	freq
+ñ- / n-	PREF	PRS/PROG	non-past / progressive	présent	Tense=Pres	high	lit
+-ǹ- / -n-	INFL	PST	past	passé	Tense=Past	high	lit(2014)
+ga- / a-	INFL	FUT	future	futur	Tense=Fut	med	lit
+a-	PREF	1.AGR	cl.1 subject agreement	accord suj. cl.1	NounClass=Bantu1	high	lit(2014)
+áá-	PREF	2.AGR	cl.2 subject agreement	accord suj. cl.2	NounClass=Bantu2	high	lit(2014)
+-ak	SUFF	IMP	imperative	impératif	Mood=Imp	med	lit
+# === The connective / associative (possession & modification) ===
+CONN	PART	CONN	associative/connective ('of')	de (connectif)	_	high	lit(2014)
+i	PART	CONN.cl9	of (cl.9)	de (cl.9)	NounClass=Bantu9	med	lit
+li	PART	CONN.cl5	of (cl.5)	de (cl.5)	NounClass=Bantu5	med	lit
+# === Common nouns (suppletive person paradigm + corpus & NWS vocab) ===
+mut	NOUN	person	person	personne	NounClass=Bantu1	high	freq+lit
+bôt	NOUN	people	people	gens	NounClass=Bantu2	high	freq+lit
+ŋkěn mut	NOUN	stranger, traveler	stranger	étranger, voyageur	NounClass=Bantu1	high	lit(NWS)
+maŋge	NOUN	child	child	enfant	NounClass=Bantu1	med	lit
+ɓɔ́ŋgɛ́	NOUN	children	children	enfants	NounClass=Bantu2	high	lit(2014)
+hop	NOUN	language	language	langue	NounClass=Bantu5	high	freq
+mahop	NOUN	languages	languages	langues	NounClass=Bantu6	high	freq
+buk	NOUN	word	word	mot	NounClass=Bantu5	med	freq
+bibuk	NOUN	words	words	mots	NounClass=Bantu8	high	freq
+kiñ	NOUN	voice, neck	voice, neck	voix, cou	NounClass=Bantu9	high	freq
+makiñ	NOUN	voices	voices	voix (pl.)	NounClass=Bantu6	high	freq
+haŋga	NOUN	sun	sun	soleil	NounClass=Bantu9	high	lit(NWS)
+mbɛ̀ɓí	NOUN	wind	wind	vent	NounClass=Bantu9	high	lit(NWS)
+ŋguy	NOUN	strength	strength	force	NounClass=Bantu9	high	lit(NWS)
+nuni	NOUN	bird	bird	oiseau	NounClass=Bantu19	high	lit(IPA)
+sókól	NOUN	grandfather	grandfather	grand-père	NounClass=Bantu1	high	lit(2014)
+kel	NOUN	day	day	jour	NounClass=Bantu9	med	lit(NWS)
+nson	NOUN	work, task	work	travail	NounClass=Bantu3	med	freq
+# === Common verbs (roots) ===
+téhé	VERB	see	see	voir	_	high	lit(2014)
+ɓim	VERB	blow	blow	souffler	_	high	lit(NWS)
+heja	VERB	take.off, remove	take off	enlever	_	high	lit(NWS)
+ɓɔŋ	VERB	make, do	make, do	faire	_	high	lit(NWS)
+nlɛl	VERB	pass, surpass	surpass, exceed	dépasser	_	high	lit(NWS)
+nɔɣla	VERB	agree, arrange	agree	se mettre d'accord	_	med	lit(NWS)
+lo	VERB	come	come	venir	_	med	lit(Adda)
+hôla	VERB	help	help	aider	_	high	freq
+yi	VERB	know	know	savoir	_	med	lit(NWS)
+nti	VERB	give	give	donner	_	med	freq
+nje	PRON	who, what	who, what	qui, quoi	_	high	freq

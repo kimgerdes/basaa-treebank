@@ -1,0 +1,66 @@
+# =============================================================================
+# Basaa sample treebank — SUD (Surface-syntactic Universal Dependencies)
+# Same 5 sentences as basaa_sample.conllu, re-annotated in SUD.
+# SUD differences applied here (vs the UD file):
+#   * function words are HEADS: copula heads its predicate (comp:pred);
+#     the connective/adposition heads its nominal (comp:obj) and links up as mod;
+#     prepositions head their object.
+#   * relation set: nsubj->subj ; obj->comp:obj ; xcomp/ccomp->comp:obj ;
+#     obl->comp:obl (argument) / mod (adjunct) ; cop/case removed (heads instead).
+#   * the preverbal subject-concord is BOUND as the verb prefix (NounClass on the
+#     verb), one word per finite verb — per rules/parsing.md PA-2 option (b).
+# =============================================================================
+
+# sent_id = bas-hm2014-7a-sud
+# text = Sogol antehe boonge
+# text_eng = The grandfather saw the children.
+# text_fra = Le grand-père a vu les enfants.
+# source = Hamlaoui & Makasso (2014), ex. (7a)
+1	Sogol	sokol	NOUN	_	NounClass=Bantu1|Number=Sing	2	subj	_	Gloss=1.grandfather
+2	antehe	tehe	VERB	_	NounClass=Bantu1|Tense=Past	0	root	_	Gloss=1.AGR-PST-see|Morph=a-n-tehe
+3	boonge	oonge	NOUN	_	NounClass=Bantu2|Number=Plur	2	comp:obj	_	Gloss=2-children
+
+# sent_id = bas-hm2014-7b-sud
+# text = Bor aantehe boonge
+# text_eng = The people saw the children.
+# text_fra = Les gens ont vu les enfants.
+# source = Hamlaoui & Makasso (2014), ex. (7b)
+1	Bor	or	NOUN	_	NounClass=Bantu2|Number=Plur	2	subj	_	Gloss=2-people
+2	aantehe	tehe	VERB	_	NounClass=Bantu2|Tense=Past	0	root	_	Gloss=2.AGR-PST-see|Morph=aa-n-tehe
+3	boonge	oonge	NOUN	_	NounClass=Bantu2|Number=Plur	2	comp:obj	_	Gloss=2-children
+
+# sent_id = bas-hm2014-np-poss-sud
+# text = bibox bi boonge
+# text_eng = the children's boxes
+# text_fra = les boîtes des enfants
+# source = Hamlaoui & Makasso (2014), connective NP
+# SUD: connective 'bi' heads the possessor (comp:obj) and modifies the head noun (mod).
+1	bibox	box	NOUN	_	NounClass=Bantu8|Number=Plur	0	root	_	Gloss=8-boxes
+2	bi	bi	ADP	_	NounClass=Bantu8	1	mod	_	Gloss=8.CONN
+3	boonge	oonge	NOUN	_	NounClass=Bantu2|Number=Plur	2	comp:obj	_	Gloss=2-children
+
+# sent_id = bas-cv-who-sud
+# text = Bes bo nje ?
+# text_eng = Who are we?
+# text_fra = Qui sommes-nous ?
+# source = corpora/opus/Mozilla-l10n_bas.mono.txt
+# SUD: the copula 'bo' is the HEAD/root; predicate 'nje' is comp:pred.
+1	Bes	bes	PRON	_	Person=1|Number=Plur	2	subj	_	Gloss=1PL
+2	bo	bo	AUX	_	Person=3|Number=Plur	0	root	_	Gloss=COP
+3	nje	nje	PRON	_	PronType=Int	2	comp:pred	_	Gloss=who
+4	?	?	PUNCT	_	_	2	punct	_	_
+
+# sent_id = bas-nws-sun-sud
+# text = Hanga hiboroo baj ni nguy
+# text_practical = Hanga hi boroo baj ni nguy
+# text_eng = The sun began to shine with strength.
+# text_fra = Le soleil se mit à briller avec force.
+# source = Makasso & Lee (2015), North Wind and the Sun
+# SUD: 'boroo' (begin) is a full verb = head; its verbal complement 'baj' = comp:obj.
+#      preposition 'ni' heads 'nguy' (comp:obj) and modifies 'baj' (mod, manner adjunct).
+#      preverbal concord 'hi-' is bound onto the verb (NounClass=Bantu9), per PA-2.
+1	Hanga	hanga	NOUN	_	NounClass=Bantu9|Number=Sing	2	subj	_	Gloss=9.sun
+2	hiboroo	boroo	VERB	_	Aspect=Incep|NounClass=Bantu9	0	root	_	Gloss=9.AGR-start|Morph=hi-boroo
+3	baj	baj	VERB	_	VerbForm=Inf	2	comp:obj	_	Gloss=shine
+4	ni	ni	ADP	_	_	3	mod	_	Gloss=with
+5	nguy	nguy	NOUN	_	NounClass=Bantu9	4	comp:obj	_	Gloss=9.strength

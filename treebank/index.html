@@ -1,0 +1,103 @@
+<!doctype html>
+<html lang="en"><head><meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Basaa (A43) — audio-aligned treebank</title>
+<style>
+ body{font-family:system-ui,Segoe UI,Roboto,sans-serif;max-width:1000px;margin:2rem auto;padding:0 1rem;color:#222;line-height:1.55}
+ h1{margin-bottom:.2rem} .sub{color:#666;margin-top:0}
+ a.cta{display:block;text-align:center;margin:1.4rem 0;padding:1rem 1.2rem;background:#5b2a86;color:#fff;
+   text-decoration:none;border-radius:10px;font-size:1.25rem;font-weight:600;box-shadow:0 2px 8px rgba(91,42,134,.3)}
+ a.cta:hover{background:#4a2170} a.cta small{display:block;font-weight:400;font-size:.85rem;opacity:.85;margin-top:.25rem}
+ table{border-collapse:collapse;width:100%;margin:1rem 0}
+ td,th{border-bottom:1px solid #e3e3e3;padding:.5rem .6rem;vertical-align:middle;text-align:left}
+ .id{font-family:ui-monospace,monospace;font-size:.85rem;color:#555;white-space:nowrap}
+ .gl{font-family:ui-monospace,monospace;font-size:.82rem;color:#0a6}
+ audio{height:34px} .files a{display:inline-block;margin:.2rem .6rem .2rem 0}
+ .note{background:#fff8e1;border:1px solid #ffe082;padding:.6rem .8rem;border-radius:6px;font-size:.92rem}
+ .src{background:#f4f6fb;border:1px solid #d9e1f2;border-radius:8px;padding:.4rem 1rem;margin:1rem 0;font-size:.94rem}
+ .src dt{font-weight:600;margin-top:.7rem} .src dd{margin:.15rem 0 .15rem 0}
+ code{background:#eef;padding:.1rem .3rem;border-radius:4px}
+</style></head><body>
+<h1>Basaa (Bàsàá, A43) — audio-aligned treebank</h1>
+<p class="sub">ISO 639-3 <code>bas</code> · Glottolog <code>basa1284</code> · Guthrie A43 (group A.40).</p>
+
+<a class="cta" href="https://arborator.grew.fr/#/projects/B%C3%A0s%C3%A0%C3%A1">▶ Open the <b>Bàsàá</b> treebank in Arborator-Grew
+  <small>arborator.grew.fr — browse &amp; annotate the trees with playable audio</small></a>
+
+<h2>Treebank files (CoNLL-U, SUD)</h2>
+<p class="files">
+ <a href="basaa_audio.arborator.sud.conllu">⬇ basaa_audio.arborator.sud.conllu</a> (21 sentences, audio)
+ <a href="basaa_aligned.arborator.sud.conllu">⬇ child sentences only</a>
+ <a href="basaa_nws.arborator.sud.conllu">⬇ North Wind &amp; Sun only</a>
+ <a href="basaa_sample.sud.conllu">⬇ literature sample (no audio)</a>
+</p>
+
+<h2>Sources &amp; method</h2>
+<dl class="src">
+ <dt>🎙 Sound files — origin</dt>
+ <dd><b>Makasso, Emmanuel-Moselly &amp; Seunghun J. Lee (2015). “Basaá.” <i>Journal of the International
+   Phonetic Association</i> 45(1), 71–79</b> (Illustrations of the IPA). Supplementary audio © IPA /
+   Cambridge University Press, obtained from Cambridge’s static CDN; research use.</dd>
+ <dd>Recorded from a male native Basaa speaker on a Marantz PMD661 with a Shure WH-30 head-worn mic.
+   The 10 isolated items are the “syllable structure” utterances; the connected passage is Aesop’s
+   <i>North Wind &amp; the Sun</i>. Original WAVs transcoded to MP3 here.</dd>
+ <dd>Per-word time alignment: <b>forced alignment with torchaudio’s MMS multilingual CTC aligner</b>
+   (child sentences word-level; NWS sentence-level reliable, word-level draft).</dd>
+
+ <dt>✍ Transcriptions — origin</dt>
+ <dd>Basaa orthographic/IPA forms are taken from the <b>published illustration</b> (Makasso &amp; Lee
+   2015). The 10 child sentences are well recovered (<b>tones provisional</b>, to verify by ear).
+   The <b>North Wind &amp; Sun word forms are provisional</b>: the PDF’s IPA tier scattered on text
+   extraction, so it should be re-transcribed against the audio (ideally with E.-M. Makasso).</dd>
+
+ <dt>🔖 Glossing — basis</dt>
+ <dd>Leipzig Glossing Rules, following <b>Hamlaoui &amp; Makasso’s own conventions</b> — noun-class
+   numbers (<code>1-child</code>, <code>6-doughnut</code>), <code>1.AGR</code> for the class-1 subject
+   concord, <code>8.CONN</code> for the connective, <code>PRS</code>/<code>PST</code> — grounded in
+   <b>Hamlaoui &amp; Makasso (2014), “High tone spreading and Phonological Phrases in Bàsàá.”</b>
+   (Their full abbreviation key — FUT2, GEN, INF, LOC, OBL, PASS… — from the “Pronominal F-markers”
+   paper is to be adopted.) Tense is glossed from meaning; its tonal exponent is left open.</dd>
+
+ <dt>🌍 Translation — basis</dt>
+ <dd>English: the free translations <b>published in the IPA illustration</b> (child sentences) and the
+   standard English of Aesop’s passage. French: the conventional French of the passage
+   (<i>La bise et le soleil…</i>) plus direct translations of the child sentences.</dd>
+
+ <dt>🌳 Syntax</dt>
+ <dd>Annotated in <b>SUD</b> (Surface-syntactic Universal Dependencies); rationale and open decisions in
+   the project’s <code>treebank/</code> notes. Subject concord is treated as bound verb morphology
+   (<code>1.AGR-…</code>).</dd>
+</dl>
+
+<h2>Isolated sentences (clean) — 10</h2>
+<table><tr><th>id</th><th>Basaa · gloss · English</th><th>listen</th></tr>
+<tr><td class=id>bas_s01</td><td><b>maange a mporo Basaa</b><br><span class=gl>1-child 1.AGR-PRS-speak Basaa</span><br><i>The child speaks Basaa.</i></td><td><audio controls preload=none src="https://elizia.net/basaa/bas_s01_child_speaks_basaa.mp3"></audio></td></tr>
+<tr><td class=id>bas_s02</td><td><b>maange a mbii ngwaa</b><br><span class=gl>1-child 1.AGR-take wife</span><br><i>The child takes a wife.</i></td><td><audio controls preload=none src="https://elizia.net/basaa/bas_s02_child_takes_wife.mp3"></audio></td></tr>
+<tr><td class=id>bas_s03</td><td><b>maange a nsomb makala</b><br><span class=gl>1-child 1.AGR-PST-buy 6-doughnut</span><br><i>The child has bought doughnuts.</i></td><td><audio controls preload=none src="https://elizia.net/basaa/bas_s03_child_bought_doughnuts.mp3"></audio></td></tr>
+<tr><td class=id>bas_s04</td><td><b>maange a ndje makala</b><br><span class=gl>1-child 1.AGR-PRS-eat 6-doughnut</span><br><i>The child eats doughnuts.</i></td><td><audio controls preload=none src="https://elizia.net/basaa/bas_s04_child_eats_doughnuts.mp3"></audio></td></tr>
+<tr><td class=id>bas_s05</td><td><b>maange a nche</b><br><span class=gl>1-child 1.AGR-PST-die</span><br><i>The child has died.</i></td><td><audio controls preload=none src="https://elizia.net/basaa/bas_s05_child_died.mp3"></audio></td></tr>
+<tr><td class=id>bas_s06</td><td><b>maange a ngke i bom</b><br><span class=gl>1-child 1.AGR-PRS-go LOC market</span><br><i>The child is going to market.</i></td><td><audio controls preload=none src="https://elizia.net/basaa/bas_s06_child_going_market.mp3"></audio></td></tr>
+<tr><td class=id>bas_s07</td><td><b>maange a ngkor</b><br><span class=gl>1-child 1.AGR-PST-dry.up</span><br><i>The child has dried up a lot.</i></td><td><audio controls preload=none src="https://elizia.net/basaa/bas_s07_child_dried_up.mp3"></audio></td></tr>
+<tr><td class=id>bas_s08</td><td><b>maange a nnyo</b><br><span class=gl>1-child 1.AGR-PST-drink</span><br><i>The child has drunk.</i></td><td><audio controls preload=none src="https://elizia.net/basaa/bas_s08_child_drunk.mp3"></audio></td></tr>
+<tr><td class=id>bas_s09</td><td><b>maange a nnyii su</b><br><span class=gl>1-child 1.AGR-PST-smile ?</span><br><i>The child has smiled.</i></td><td><audio controls preload=none src="https://elizia.net/basaa/bas_s09_child_smiled.mp3"></audio></td></tr>
+<tr><td class=id>bas_s10</td><td><b>maange a ngang kaar</b><br><span class=gl>1-child 1.AGR-PST-read book</span><br><i>The child has read a book.</i></td><td><audio controls preload=none src="https://elizia.net/basaa/bas_s10_child_read_book.mp3"></audio></td></tr>
+</table>
+
+<h2>North Wind &amp; the Sun — 11 clause units (one recording)</h2>
+<p class="note"><b>Draft:</b> sentence timing is reliable (each clip plays its clause), but the Basaa
+word forms and parse are provisional — re-transcribe against the audio. Gloss/translation are clean.</p>
+<table><tr><th>id</th><th>Basaa · gloss · English</th><th>listen (clause span)</th></tr>
+<tr><td class=id>bas_nws01</td><td><b>mbebi mabera ni hanga ba ba pehmba</b><br><span class=gl>wind north with sun 2.AGR-be argue</span><br><i>The North Wind and the Sun were arguing.</i></td><td><audio controls preload=none src="https://elizia.net/basaa/bas_NWS_north_wind_and_sun.mp3#t=3.902,7.423"></audio></td></tr>
+<tr><td class=id>bas_nws02</td><td><b>kel jada inyu liji nje a gwee nguy lo nunu</b><br><span class=gl>day one for know who 1.AGR-have strength surpass this.one</span><br><i>one day, about which of them was stronger,</i></td><td><audio controls preload=none src="https://elizia.net/basaa/bas_NWS_north_wind_and_sun.mp3#t=8.304,11.305"></audio></td></tr>
+<tr><td class=id>bas_nws03</td><td><b>hanyen ngken mur a bitihi a ba heeba kori mbeng</b><br><span class=gl>then stranger man 1.AGR-arrive he be wear coat rain</span><br><i>when a traveler came along wrapped up in an overcoat,</i></td><td><audio controls preload=none src="https://elizia.net/basaa/bas_NWS_north_wind_and_sun.mp3#t=12.645,15.347"></audio></td></tr>
+<tr><td class=id>bas_nws04</td><td><b>ba nogla le i a mbong ngken mur le a heja</b><br><span class=gl>they agree that the.one 1.AGR-make stranger man that he take.off</span><br><i>they agreed that the one who could make the traveler take off</i></td><td><audio controls preload=none src="https://elizia.net/basaa/bas_NWS_north_wind_and_sun.mp3#t=17.187,22.130"></audio></td></tr>
+<tr><td class=id>bas_nws05</td><td><b>kori jee nyen a gwee nguy lo nunu</b><br><span class=gl>coat his the.one 1.AGR-have strength surpass this.one</span><br><i>his coat would be considered the stronger.</i></td><td><audio controls preload=none src="https://elizia.net/basaa/bas_NWS_north_wind_and_sun.mp3#t=22.210,25.151"></audio></td></tr>
+<tr><td class=id>bas_nws06</td><td><b>we mbebi i bihong ni nguy libim i bela</b><br><span class=gl>then wind 9.AGR-blow with strength quantity 9.AGR-be.able</span><br><i>Then the wind blew as hard as he could,</i></td><td><audio controls preload=none src="https://elizia.net/basaa/bas_NWS_north_wind_and_sun.mp3#t=26.592,28.893"></audio></td></tr>
+<tr><td class=id>bas_nws07</td><td><b>ndi kii jo i be hongoh jah mur a surge kori jee</b><br><span class=gl>but as him 9.AGR-be blow also man 1.AGR-tighten coat his</span><br><i>but the harder he blew, the tighter the man wrapped his coat;</i></td><td><audio controls preload=none src="https://elizia.net/basaa/bas_NWS_north_wind_and_sun.mp3#t=30.293,34.395"></audio></td></tr>
+<tr><td class=id>bas_nws08</td><td><b>ibol le te mbebi i bito i waa hong</b><br><span class=gl>till that till wind 9.AGR-be.tired 9.AGR-stop blow</span><br><i>and at last the wind gave up trying.</i></td><td><audio controls preload=none src="https://elizia.net/basaa/bas_NWS_north_wind_and_sun.mp3#t=35.575,38.677"></audio></td></tr>
+<tr><td class=id>bas_nws09</td><td><b>hanga hi boroo baj ni nguy</b><br><span class=gl>sun 9.AGR-start shine with strength</span><br><i>Then the sun began to shine with strength,</i></td><td><audio controls preload=none src="https://elizia.net/basaa/bas_NWS_north_wind_and_sun.mp3#t=40.838,42.819"></audio></td></tr>
+<tr><td class=id>bas_nws10</td><td><b>ibol le te ngken mur a heja kori jee</b><br><span class=gl>till that till stranger man 1.AGR-take.off coat his</span><br><i>and right away the traveler took off his coat.</i></td><td><audio controls preload=none src="https://elizia.net/basaa/bas_NWS_north_wind_and_sun.mp3#t=43.659,45.940"></audio></td></tr>
+<tr><td class=id>bas_nws11</td><td><b>hanyen mbebi mabera i binea le hanga hi nlel jo nguy</b><br><span class=gl>then wind north 9.AGR-accept that sun 9.AGR-surpass it strength</span><br><i>And so the North Wind had to admit that the Sun was the stronger.</i></td><td><audio controls preload=none src="https://elizia.net/basaa/bas_NWS_north_wind_and_sun.mp3#t=47.401,51.903"></audio></td></tr>
+</table>
+<p class="sub">Audio CORS-enabled for arborator.grew.fr. Generated for the Bàsàá treebank project.</p>
+</body></html>

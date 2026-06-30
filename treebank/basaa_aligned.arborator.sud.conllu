@@ -1,0 +1,119 @@
+# === Arborator-Grew-ready (audio) version of basaa_aligned.sud.conllu ===
+# sound_url = MP3 on elizia.net ; AlignBegin/AlignEnd = MMS forced-alignment (ms).
+# Glosses follow Hamlaoui & Makasso conventions (1.AGR, 1-child, CONN).
+
+# =============================================================================
+# Basaa AUDIO-GROUNDED sample treebank — SUD
+# The 10 individually-aligned sentences from Makasso & Lee (2015), each linked to
+# its WAV in ../recordings/aligned/. Shared frame:
+#     m-aange(1-child, subj)  a-N-verb(root; concord a- BOUND, NounClass on verb)  (OBJ comp:obj)
+# Tokenization: the preverbal subject-concord is BOUND as the verb prefix a-
+#   (NounClass=Bantu1 on the verb), per the agreed policy — rules/parsing.md PA-2
+#   option (b). The verb's AlignBegin therefore spans back over the concord's slice.
+#   The spaced practical spelling is preserved in '# text_practical'.
+# Tense FEAT is from the translation; nasal-tone is NOT the established tense
+#   exponent (see ../glossary/transcription_and_gloss_review.md §4; rules/glossing.md GL-4).
+# FORM = practical (toneless) normalization; MISC Ipa= the recovered IPA; verify vs audio.
+# =============================================================================
+
+# sent_id = bas_s01
+# audio = ../recordings/aligned/bas_s01_child_speaks_basaa.wav
+# sound_url = https://elizia.net/basaa/bas_s01_child_speaks_basaa.mp3
+# text = maange amporo Basaa
+# text_practical = maange a mporo Basaa
+# text_eng = The child speaks Basaa.
+1	maange	maange	NOUN	_	NounClass=Bantu1|Number=Sing	2	subj	_	AlignBegin=141|AlignEnd=666|Gloss=1-child|Morph=m-aange|Ipa=maàŋgɛ́
+2	amporo	poro	VERB	_	NounClass=Bantu1|Tense=Pres|VerbForm=Fin	0	root	_	AlignBegin=988|AlignEnd=1513|Gloss=1.AGR-PRS-speak|Morph=a-m-poro|NasalTone=H(obs)
+3	Basaa	basaa	PROPN	_	_	2	comp:obj	_	AlignBegin=1553|AlignEnd=2118|Gloss=Basaa
+
+# sent_id = bas_s02
+# audio = ../recordings/aligned/bas_s02_child_takes_wife.wav
+# sound_url = https://elizia.net/basaa/bas_s02_child_takes_wife.mp3
+# text = maange ambii ngwaa
+# text_practical = maange a mbii ngwaa
+# text_eng = The child takes a wife.
+1	maange	maange	NOUN	_	NounClass=Bantu1|Number=Sing	2	subj	_	AlignBegin=121|AlignEnd=685|Gloss=1-child|Morph=m-aange|Ipa=maàŋgɛ́
+2	ambii	bii	VERB	_	NounClass=Bantu1|VerbForm=Fin	0	root	_	AlignBegin=988|AlignEnd=1512|Gloss=1.AGR-take|Morph=a-m-bii|NasalTone=L(obs)|Note=tense-to-verify
+3	ngwaa	ngwaa	NOUN	_	_	2	comp:obj	_	AlignBegin=1633|AlignEnd=1976|Gloss=wife
+
+# sent_id = bas_s03
+# audio = ../recordings/aligned/bas_s03_child_bought_doughnuts.wav
+# sound_url = https://elizia.net/basaa/bas_s03_child_bought_doughnuts.mp3
+# text = maange ansomb makala
+# text_practical = maange a nsomb makala
+# text_eng = The child has bought doughnuts.
+1	maange	maange	NOUN	_	NounClass=Bantu1|Number=Sing	2	subj	_	AlignBegin=202|AlignEnd=727|Gloss=1-child|Morph=m-aange|Ipa=maàŋgɛ́
+2	ansomb	somb	VERB	_	Aspect=Perf|NounClass=Bantu1|Tense=Past|VerbForm=Fin	0	root	_	AlignBegin=969|AlignEnd=1453|Gloss=1.AGR-PST-buy|Morph=a-n-somb|NasalTone=L(obs)
+3	makala	kala	NOUN	_	NounClass=Bantu6|Number=Plur	2	comp:obj	_	AlignBegin=1594|AlignEnd=2099|Gloss=6-doughnut
+
+# sent_id = bas_s04
+# audio = ../recordings/aligned/bas_s04_child_eats_doughnuts.wav
+# sound_url = https://elizia.net/basaa/bas_s04_child_eats_doughnuts.mp3
+# text = maange andje makala
+# text_practical = maange a ndje makala
+# text_eng = The child eats doughnuts.
+# note = minimal pair with bas_s03: same frame, present vs perfect (exponence to verify).
+1	maange	maange	NOUN	_	NounClass=Bantu1|Number=Sing	2	subj	_	AlignBegin=202|AlignEnd=627|Gloss=1-child|Morph=m-aange|Ipa=maàŋgɛ́
+2	andje	dje	VERB	_	NounClass=Bantu1|Tense=Pres|VerbForm=Fin	0	root	_	AlignBegin=850|AlignEnd=1174|Gloss=1.AGR-PRS-eat|Morph=a-n-dje|NasalTone=H(obs)
+3	makala	kala	NOUN	_	NounClass=Bantu6|Number=Plur	2	comp:obj	_	AlignBegin=1275|AlignEnd=1720|Gloss=6-doughnut
+
+# sent_id = bas_s05
+# audio = ../recordings/aligned/bas_s05_child_died.wav
+# sound_url = https://elizia.net/basaa/bas_s05_child_died.mp3
+# text = maange anche
+# text_practical = maange a nche
+# text_eng = The child has died.
+1	maange	maange	NOUN	_	NounClass=Bantu1|Number=Sing	2	subj	_	AlignBegin=141|AlignEnd=545|Gloss=1-child|Morph=m-aange|Ipa=maàŋgɛ́
+2	anche	che	VERB	_	Aspect=Perf|NounClass=Bantu1|Tense=Past|VerbForm=Fin	0	root	_	AlignBegin=727|AlignEnd=1111|Gloss=1.AGR-PST-die|Morph=a-n-che|NasalTone=L(obs)
+
+# sent_id = bas_s06
+# audio = ../recordings/aligned/bas_s06_child_going_market.wav
+# sound_url = https://elizia.net/basaa/bas_s06_child_going_market.mp3
+# text = maange angke i bom
+# text_practical = maange a ngke i bom
+# text_eng = The child is going to market.
+# SUD: 'i' = locative head of 'bom' (comp:obl); AUG analysis considered and set aside
+#   per discussion — see rules/contradictions.md FLAG-3.
+1	maange	maange	NOUN	_	NounClass=Bantu1|Number=Sing	2	subj	_	AlignBegin=182|AlignEnd=565|Gloss=1-child|Morph=m-aange|Ipa=maàŋgɛ́
+2	angke	ke	VERB	_	Aspect=Prog|NounClass=Bantu1|Tense=Pres|VerbForm=Fin	0	root	_	AlignBegin=686|AlignEnd=989|Gloss=1.AGR-PRS-go|Morph=a-ng-ke|NasalTone=H(obs)
+3	i	i	ADP	_	_	2	comp:obl	_	AlignBegin=1131|AlignEnd=1151|Gloss=LOC
+4	bom	bom	NOUN	_	_	3	comp:obj	_	AlignBegin=1232|AlignEnd=1393|Gloss=market
+
+# sent_id = bas_s07
+# audio = ../recordings/aligned/bas_s07_child_dried_up.wav
+# sound_url = https://elizia.net/basaa/bas_s07_child_dried_up.mp3
+# text = maange angkor
+# text_practical = maange a ngkor
+# text_eng = The child has dried up a lot.
+1	maange	maange	NOUN	_	NounClass=Bantu1|Number=Sing	2	subj	_	AlignBegin=120|AlignEnd=442|Gloss=1-child|Morph=m-aange|Ipa=maàŋgɛ́
+2	angkor	kor	VERB	_	Aspect=Perf|NounClass=Bantu1|Tense=Past|VerbForm=Fin	0	root	_	AlignBegin=602|AlignEnd=1044|Gloss=1.AGR-PST-dry.up|Morph=a-ng-kor|NasalTone=L(obs)
+
+# sent_id = bas_s08
+# audio = ../recordings/aligned/bas_s08_child_drunk.wav
+# sound_url = https://elizia.net/basaa/bas_s08_child_drunk.mp3
+# text = maange annyo
+# text_practical = maange a nnyo
+# text_eng = The child has drunk.
+1	maange	maange	NOUN	_	NounClass=Bantu1|Number=Sing	2	subj	_	AlignBegin=122|AlignEnd=507|Gloss=1-child|Morph=m-aange|Ipa=maàŋgɛ́
+2	annyo	nyo	VERB	_	Aspect=Perf|NounClass=Bantu1|Tense=Past|VerbForm=Fin	0	root	_	AlignBegin=608|AlignEnd=912|Gloss=1.AGR-PST-drink|Morph=a-n-nyo|NasalTone=L(obs)
+
+# sent_id = bas_s09
+# audio = ../recordings/aligned/bas_s09_child_smiled.wav
+# sound_url = https://elizia.net/basaa/bas_s09_child_smiled.mp3
+# text = maange annyii su
+# text_practical = maange a nnyii su
+# text_eng = The child has smiled.
+# note = 'su' is probably sú 'face (cl.9)', lexicalized in 'smile' (verify).
+1	maange	maange	NOUN	_	NounClass=Bantu1|Number=Sing	2	subj	_	AlignBegin=61|AlignEnd=405|Gloss=1-child|Morph=m-aange|Ipa=maàŋgɛ́
+2	annyii	nyii	VERB	_	Aspect=Perf|NounClass=Bantu1|Tense=Past|VerbForm=Fin	0	root	_	AlignBegin=506|AlignEnd=1073|Gloss=1.AGR-PST-smile|Morph=a-n-nyii|NasalTone=L(obs)
+3	su	su	PART	_	_	2	comp:obj	_	AlignBegin=1174|AlignEnd=1296|Gloss=?|Note=verify
+
+# sent_id = bas_s10
+# audio = ../recordings/aligned/bas_s10_child_read_book.wav
+# sound_url = https://elizia.net/basaa/bas_s10_child_read_book.mp3
+# text = maange angang kaar
+# text_practical = maange a ngang kaar
+# text_eng = The child has read a book.
+1	maange	maange	NOUN	_	NounClass=Bantu1|Number=Sing	2	subj	_	AlignBegin=201|AlignEnd=624|Gloss=1-child|Morph=m-aange|Ipa=maàŋgɛ́
+2	angang	ang	VERB	_	Aspect=Perf|NounClass=Bantu1|Tense=Past|VerbForm=Fin	0	root	_	AlignBegin=805|AlignEnd=1247|Gloss=1.AGR-PST-read|Morph=a-ng-ang|NasalTone=L(obs)
+3	kaar	kaar	NOUN	_	_	2	comp:obj	_	AlignBegin=1388|AlignEnd=1830|Gloss=book

@@ -1,0 +1,190 @@
+# === Basaa — North Wind & the Sun (SUD, audio for Arborator) ===
+# 11 clause units, one shared recording. TRANSCRIPTION PROVISIONAL, PARSE DRAFT —
+# refine by listening in Arborator (each token is clickable).
+
+# sent_id = bas_nws01
+# text = mbebi mabera ni hanga baba pehmba
+# text_practical = mbebi mabera ni hanga ba ba pehmba
+# text_eng = The North Wind and the Sun were arguing.
+# text_fra = La bise et le soleil se disputaient.
+# sound_url = https://elizia.net/basaa/bas_NWS_north_wind_and_sun.mp3
+# AlignBegin = 3902
+# AlignEnd = 7423
+1	mbebi	mbebi	NOUN	_	_	6	subj	_	AlignBegin=3902|AlignEnd=4202|Gloss=wind
+2	mabera	mabera	PROPN	_	_	1	mod	_	AlignBegin=4262|AlignEnd=4662|Gloss=north
+3	ni	ni	CCONJ	_	_	4	cc	_	AlignBegin=5843|AlignEnd=5923|Gloss=with
+4	hanga	hanga	NOUN	_	_	1	conj	_	AlignBegin=5983|AlignEnd=6263|Gloss=sun
+5	baba	ba	AUX	_	NounClass=Bantu2	6	aux	_	AlignBegin=6823|AlignEnd=7003|Gloss=2.AGR-be|Morph=ba-ba|Flag=concord 2.AGR attaches to AUXILIARY 'ba'(be), not main verb 'pehmba' — confirm host by ear
+6	pehmba	pehmba	VERB	_	_	0	root	_	AlignBegin=7103|AlignEnd=7423|Gloss=argue
+
+# sent_id = bas_nws02
+# text = kel jada inyu liji nje agwee nguy lo nunu
+# text_practical = kel jada inyu liji nje a gwee nguy lo nunu
+# text_eng = one day, about which of them was stronger,
+# text_fra = un jour, à propos duquel était le plus fort,
+# sound_url = https://elizia.net/basaa/bas_NWS_north_wind_and_sun.mp3
+# AlignBegin = 8304
+# AlignEnd = 11305
+1	kel	kel	NOUN	_	_	8	mod	_	AlignBegin=8304|AlignEnd=8464|Gloss=day
+2	jada	jada	NUM	_	_	1	mod	_	AlignBegin=8484|AlignEnd=8804|Gloss=one
+3	inyu	inyu	ADP	_	_	4	mark	_	AlignBegin=9164|AlignEnd=9384|Gloss=for
+4	liji	liji	VERB	_	_	8	dep	_	AlignBegin=9464|AlignEnd=9684|Gloss=know
+5	nje	nje	PRON	_	_	6	subj	_	AlignBegin=9764|AlignEnd=9964|Gloss=who
+6	agwee	gwee	VERB	_	NounClass=Bantu1	8	dep	_	AlignBegin=9964|AlignEnd=10264|Gloss=1.AGR-have|Morph=a-gwee
+7	nguy	nguy	NOUN	_	_	6	comp:obj	_	AlignBegin=10264|AlignEnd=10505|Gloss=strength
+8	lo	lo	VERB	_	_	0	root	_	AlignBegin=10865|AlignEnd=10965|Gloss=surpass
+9	nunu	nunu	PRON	_	_	8	comp:obj	_	AlignBegin=11085|AlignEnd=11305|Gloss=this.one
+
+# sent_id = bas_nws03
+# text = hanyen ngken mur abitihi a ba heeba kori mbeng
+# text_practical = hanyen ngken mur a bitihi a ba heeba kori mbeng
+# text_eng = when a traveler came along wrapped up in an overcoat,
+# text_fra = quand un voyageur arriva enveloppé dans un manteau,
+# sound_url = https://elizia.net/basaa/bas_NWS_north_wind_and_sun.mp3
+# AlignBegin = 12645
+# AlignEnd = 15347
+1	hanyen	hanyen	ADV	_	_	4	mod	_	AlignBegin=12645|AlignEnd=12886|Gloss=then
+2	ngken	ngken	NOUN	_	_	3	mod	_	AlignBegin=12926|AlignEnd=13066|Gloss=stranger
+3	mur	mur	NOUN	_	_	4	subj	_	AlignBegin=13106|AlignEnd=13226|Gloss=man
+4	abitihi	bitihi	VERB	_	NounClass=Bantu1	0	root	_	AlignBegin=13266|AlignEnd=13646|Gloss=1.AGR-arrive|Morph=a-bitihi
+5	a	a	PRON	_	_	8	subj	_	AlignBegin=14286|AlignEnd=14306|Gloss=he
+6	ba	ba	AUX	_	_	8	aux	_	AlignBegin=14366|AlignEnd=14546|Gloss=be
+7	heeba	heeba	VERB	_	_	4	mod	_	AlignBegin=14606|AlignEnd=14826|Gloss=wear
+8	kori	kori	NOUN	_	_	7	comp:obj	_	AlignBegin=14906|AlignEnd=15107|Gloss=coat
+9	mbeng	mbeng	NOUN	_	_	8	mod	_	AlignBegin=15127|AlignEnd=15347|Gloss=rain
+
+# sent_id = bas_nws04
+# text = ba nogla le i ambong ngken mur le a heja
+# text_practical = ba nogla le i a mbong ngken mur le a heja
+# text_eng = they agreed that the one who could make the traveler take off
+# text_fra = ils convinrent que celui qui ferait ôter au voyageur
+# sound_url = https://elizia.net/basaa/bas_NWS_north_wind_and_sun.mp3
+# AlignBegin = 17187
+# AlignEnd = 22130
+1	ba	ba	PRON	_	_	2	subj	_	AlignBegin=17187|AlignEnd=17268|Gloss=they
+2	nogla	nogla	VERB	_	_	0	root	_	AlignBegin=17348|AlignEnd=17688|Gloss=agree
+3	le	le	SCONJ	_	_	5	mark	_	AlignBegin=17768|AlignEnd=17868|Gloss=that
+4	i	i	PRON	_	_	5	subj	_	AlignBegin=18588|AlignEnd=18608|Gloss=the.one
+5	ambong	mbong	VERB	_	NounClass=Bantu1	2	comp:obj	_	AlignBegin=19248|AlignEnd=19488|Gloss=1.AGR-make|Morph=a-mbong
+6	ngken	ngken	NOUN	_	_	7	mod	_	AlignBegin=19629|AlignEnd=19829|Gloss=stranger
+7	mur	mur	NOUN	_	_	5	comp:obj	_	AlignBegin=19889|AlignEnd=20089|Gloss=man
+8	le	le	SCONJ	_	_	10	mark	_	AlignBegin=21509|AlignEnd=21609|Gloss=that
+9	a	a	PRON	_	_	10	subj	_	AlignBegin=21870|AlignEnd=21890|Gloss=he
+10	heja	heja	VERB	_	_	5	comp:obj	_	AlignBegin=21950|AlignEnd=22130|Gloss=take.off
+
+# sent_id = bas_nws05
+# text = kori jee nyen agwee nguy lo nunu
+# text_practical = kori jee nyen a gwee nguy lo nunu
+# text_eng = his coat would be considered the stronger.
+# text_fra = son manteau serait considéré le plus fort.
+# sound_url = https://elizia.net/basaa/bas_NWS_north_wind_and_sun.mp3
+# AlignBegin = 22210
+# AlignEnd = 25151
+1	kori	kori	NOUN	_	_	6	subj	_	AlignBegin=22210|AlignEnd=22430|Gloss=coat
+2	jee	jee	PRON	_	_	1	mod	_	AlignBegin=22470|AlignEnd=22630|Gloss=his
+3	nyen	nyen	PRON	_	_	1	mod	_	AlignBegin=23890|AlignEnd=24070|Gloss=the.one
+4	agwee	gwee	VERB	_	NounClass=Bantu1	6	dep	_	AlignBegin=24211|AlignEnd=24431|Gloss=1.AGR-have|Morph=a-gwee|Flag=draft attached 'a' to root 'lo'; refolded onto 'gwee' (the verb it marks) — confirm
+5	nguy	nguy	NOUN	_	_	4	comp:obj	_	AlignBegin=24431|AlignEnd=24631|Gloss=strength
+6	lo	lo	VERB	_	_	0	root	_	AlignBegin=24711|AlignEnd=24811|Gloss=surpass
+7	nunu	nunu	PRON	_	_	6	comp:obj	_	AlignBegin=24931|AlignEnd=25151|Gloss=this.one
+
+# sent_id = bas_nws06
+# text = we mbebi ibihong ni nguy libim ibela
+# text_practical = we mbebi i bihong ni nguy libim i bela
+# text_eng = Then the wind blew as hard as he could,
+# text_fra = Alors la bise souffla de toutes ses forces,
+# sound_url = https://elizia.net/basaa/bas_NWS_north_wind_and_sun.mp3
+# AlignBegin = 26592
+# AlignEnd = 28893
+1	we	we	ADV	_	_	3	mod	_	AlignBegin=26592|AlignEnd=26652|Gloss=then
+2	mbebi	mbebi	NOUN	_	_	3	subj	_	AlignBegin=26712|AlignEnd=26932|Gloss=wind
+3	ibihong	bihong	VERB	_	NounClass=Bantu9	0	root	_	AlignBegin=27032|AlignEnd=27352|Gloss=9.AGR-blow|Morph=i-bihong
+4	ni	ni	ADP	_	_	5	case	_	AlignBegin=27412|AlignEnd=27472|Gloss=with
+5	nguy	nguy	NOUN	_	_	3	mod	_	AlignBegin=27512|AlignEnd=27752|Gloss=strength
+6	libim	libim	NOUN	_	_	7	mod	_	AlignBegin=28352|AlignEnd=28592|Gloss=quantity
+7	ibela	bela	VERB	_	NounClass=Bantu9	3	mod	_	AlignBegin=28612|AlignEnd=28893|Gloss=9.AGR-be.able|Morph=i-bela|Flag='i' was glossed 'it'; treated as cl.9 concord on 'bela' — confirm it is a subject marker, not a pronoun
+
+# sent_id = bas_nws07
+# text = ndi kii jo ibe hongoh jah mur asurge kori jee
+# text_practical = ndi kii jo i be hongoh jah mur a surge kori jee
+# text_eng = but the harder he blew, the tighter the man wrapped his coat;
+# text_fra = mais plus il soufflait, plus l'homme serrait son manteau;
+# sound_url = https://elizia.net/basaa/bas_NWS_north_wind_and_sun.mp3
+# AlignBegin = 30293
+# AlignEnd = 34395
+1	ndi	ndi	CCONJ	_	_	6	cc	_	AlignBegin=30293|AlignEnd=30413|Gloss=but
+2	kii	kii	SCONJ	_	_	6	mark	_	AlignBegin=30473|AlignEnd=30613|Gloss=as
+3	jo	jo	PRON	_	_	6	subj	_	AlignBegin=30633|AlignEnd=30713|Gloss=him
+4	ibe	be	AUX	_	NounClass=Bantu9	6	aux	_	AlignBegin=30793|AlignEnd=30993|Gloss=9.AGR-be|Morph=i-be|Flag='i'(it) folds onto AUXILIARY 'be'; sentence parse is rough (jah self-loop fixed) — reparse by ear
+5	hongoh	hongoh	VERB	_	_	0	root	_	AlignBegin=31294|AlignEnd=31634|Gloss=blow
+6	jah	jah	ADV	_	_	5	mod	_	AlignBegin=32214|AlignEnd=32354|Gloss=also
+7	mur	mur	NOUN	_	_	8	subj	_	AlignBegin=32434|AlignEnd=32634|Gloss=man
+8	asurge	surge	VERB	_	NounClass=Bantu1	6	conj	_	AlignBegin=33555|AlignEnd=33915|Gloss=1.AGR-tighten|Morph=a-surge
+9	kori	kori	NOUN	_	_	8	comp:obj	_	AlignBegin=33995|AlignEnd=34195|Gloss=coat
+10	jee	jee	PRON	_	_	9	mod	_	AlignBegin=34235|AlignEnd=34395|Gloss=his
+
+# sent_id = bas_nws08
+# text = ibol le te mbebi ibito iwaa hong
+# text_practical = ibol le te mbebi i bito i waa hong
+# text_eng = and at last the wind gave up trying.
+# text_fra = et finalement la bise renonça.
+# sound_url = https://elizia.net/basaa/bas_NWS_north_wind_and_sun.mp3
+# AlignBegin = 35575
+# AlignEnd = 38677
+1	ibol	ibol	SCONJ	_	_	5	mark	_	AlignBegin=35575|AlignEnd=35836|Gloss=till
+2	le	le	SCONJ	_	_	5	mark	_	AlignBegin=35896|AlignEnd=35976|Gloss=that
+3	te	te	SCONJ	_	_	5	mark	_	AlignBegin=36076|AlignEnd=36176|Gloss=till
+4	mbebi	mbebi	NOUN	_	_	5	subj	_	AlignBegin=36736|AlignEnd=37036|Gloss=wind
+5	ibito	bito	VERB	_	NounClass=Bantu9	0	root	_	AlignBegin=37416|AlignEnd=37696|Gloss=9.AGR-be.tired|Morph=i-bito
+6	iwaa	waa	VERB	_	NounClass=Bantu9	5	conj	_	AlignBegin=38157|AlignEnd=38417|Gloss=9.AGR-stop|Morph=i-waa|Flag='i' was glossed 'it'; treated as concord on 'waa' — confirm
+7	hong	hong	VERB	_	_	6	comp:obj	_	AlignBegin=38477|AlignEnd=38677|Gloss=blow
+
+# sent_id = bas_nws09
+# text = hanga hiboroo baj ni nguy
+# text_practical = hanga hi boroo baj ni nguy
+# text_eng = Then the sun began to shine with strength,
+# text_fra = Alors le soleil se mit à briller avec force,
+# sound_url = https://elizia.net/basaa/bas_NWS_north_wind_and_sun.mp3
+# AlignBegin = 40838
+# AlignEnd = 42819
+1	hanga	hanga	NOUN	_	_	2	subj	_	AlignBegin=40838|AlignEnd=41118|Gloss=sun
+2	hiboroo	boroo	VERB	_	NounClass=Bantu9	0	root	_	AlignBegin=41198|AlignEnd=41838|Gloss=9.AGR-start|Morph=hi-boroo
+3	baj	baj	VERB	_	_	2	comp:obj	_	AlignBegin=42018|AlignEnd=42258|Gloss=shine
+4	ni	ni	ADP	_	_	3	mod	_	AlignBegin=42458|AlignEnd=42518|Gloss=with
+5	nguy	nguy	NOUN	_	_	4	comp:obj	_	AlignBegin=42558|AlignEnd=42819|Gloss=strength
+
+# sent_id = bas_nws10
+# text = ibol le te ngken mur aheja kori jee
+# text_practical = ibol le te ngken mur a heja kori jee
+# text_eng = and right away the traveler took off his coat.
+# text_fra = et aussitôt le voyageur ôta son manteau.
+# sound_url = https://elizia.net/basaa/bas_NWS_north_wind_and_sun.mp3
+# AlignBegin = 43659
+# AlignEnd = 45940
+1	ibol	ibol	SCONJ	_	_	6	mark	_	AlignBegin=43659|AlignEnd=43899|Gloss=till
+2	le	le	SCONJ	_	_	6	mark	_	AlignBegin=43919|AlignEnd=43999|Gloss=that
+3	te	te	SCONJ	_	_	6	mark	_	AlignBegin=44079|AlignEnd=44179|Gloss=till
+4	ngken	ngken	NOUN	_	_	5	mod	_	AlignBegin=44519|AlignEnd=44739|Gloss=stranger
+5	mur	mur	NOUN	_	_	6	subj	_	AlignBegin=44779|AlignEnd=44960|Gloss=man
+6	aheja	heja	VERB	_	NounClass=Bantu1	0	root	_	AlignBegin=45160|AlignEnd=45440|Gloss=1.AGR-take.off|Morph=a-heja
+7	kori	kori	NOUN	_	_	6	comp:obj	_	AlignBegin=45520|AlignEnd=45740|Gloss=coat
+8	jee	jee	PRON	_	_	7	mod	_	AlignBegin=45760|AlignEnd=45940|Gloss=his
+
+# sent_id = bas_nws11
+# text = hanyen mbebi mabera ibinea le hanga hinlel jo nguy
+# text_practical = hanyen mbebi mabera i binea le hanga hi nlel jo nguy
+# text_eng = And so the North Wind had to admit that the Sun was the stronger.
+# text_fra = Et la bise dut reconnaître que le soleil était le plus fort.
+# sound_url = https://elizia.net/basaa/bas_NWS_north_wind_and_sun.mp3
+# AlignBegin = 47401
+# AlignEnd = 51903
+1	hanyen	hanyen	ADV	_	_	4	mod	_	AlignBegin=47401|AlignEnd=47721|Gloss=then
+2	mbebi	mbebi	NOUN	_	_	4	subj	_	AlignBegin=47761|AlignEnd=48021|Gloss=wind
+3	mabera	mabera	PROPN	_	_	2	mod	_	AlignBegin=48241|AlignEnd=48601|Gloss=north
+4	ibinea	binea	VERB	_	NounClass=Bantu9	0	root	_	AlignBegin=49461|AlignEnd=49922|Gloss=9.AGR-accept|Morph=i-binea
+5	le	le	SCONJ	_	_	7	mark	_	AlignBegin=50002|AlignEnd=50082|Gloss=that
+6	hanga	hanga	NOUN	_	_	7	subj	_	AlignBegin=50682|AlignEnd=50962|Gloss=sun
+7	hinlel	nlel	VERB	_	NounClass=Bantu9	4	comp:obj	_	AlignBegin=51122|AlignEnd=51482|Gloss=9.AGR-surpass|Morph=hi-nlel
+8	jo	jo	PRON	_	_	7	dep	_	AlignBegin=51522|AlignEnd=51602|Gloss=it
+9	nguy	nguy	NOUN	_	_	7	comp:obj	_	AlignBegin=51662|AlignEnd=51903|Gloss=strength
+

@@ -1,0 +1,17 @@
+# Python environment (huge) and caches
+.venv/
+__pycache__/
+*.pyc
+
+# ── Copyrighted MEDIA — intentionally NOT redistributed here (see README §Copyright)
+#    Speech © IPA / Cambridge University Press (Makasso & Lee 2015), research use only.
+#    The treebank references it via the # sound_url fields instead.
+*.mp3
+*.wav
+
+# ── Copyrighted ARTICLES — NOT redistributed (cited in docs/SOURCES.md)
+*.pdf
+
+# ── Bulk corpus dumps (licences vary; re-fetch per corpora/README.md)
+corpora/opus/
+corpora/crubadan/

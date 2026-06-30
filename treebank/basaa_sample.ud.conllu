@@ -1,0 +1,61 @@
+# =============================================================================
+# UD_Basaa — sample treebank (bootstrap, v0.1)
+# 5 sentences, hand-analyzed from glossed sources in ../docs and ../corpora.
+# Tier conventions:
+#   FORM   = practical (mostly toneless) orthography, word-level tokens
+#   LEMMA  = root/stem
+#   MISC   Gloss= Leipzig morpheme gloss ; Morph= morpheme segmentation ; Eng= token sense
+#   # text_eng / # text_fra = free-translation tiers ("translated")
+# Noun-class concord is encoded with NounClass=Bantu<n> features.
+# Subject-agreement + TAM are kept ON the verb token (one word) with features;
+#   the alternative (multiword-token split) is discussed in syntactic_analysis.md.
+# =============================================================================
+
+# sent_id = bas-hm2014-7a
+# text = Sogol antehe boonge
+# text_eng = The grandfather saw the children.
+# text_fra = Le grand-père a vu les enfants.
+# source = Hamlaoui & Makasso (2014), ex. (7a); docs/Hamlaoui_Makasso_2014_HighTone_PhonPhrases_Basaa.pdf
+1	Sogol	sokol	NOUN	_	NounClass=Bantu1|Number=Sing	2	nsubj	_	Gloss=1.grandfather|Eng=grandfather
+2	antehe	tehe	VERB	_	NounClass=Bantu1|Tense=Past	0	root	_	Gloss=1.AGR-PST-see|Morph=a-n-tehe|Eng=saw
+3	boonge	oonge	NOUN	_	NounClass=Bantu2|Number=Plur	2	obj	_	Gloss=2-children|Eng=children
+
+# sent_id = bas-hm2014-7b
+# text = Bor aantehe boonge
+# text_eng = The people saw the children.
+# text_fra = Les gens ont vu les enfants.
+# source = Hamlaoui & Makasso (2014), ex. (7b)
+1	Bor	or	NOUN	_	NounClass=Bantu2|Number=Plur	2	nsubj	_	Gloss=2-people|Eng=people
+2	aantehe	tehe	VERB	_	NounClass=Bantu2|Tense=Past	0	root	_	Gloss=2.AGR-PST-see|Morph=aa-n-tehe|Eng=saw
+3	boonge	oonge	NOUN	_	NounClass=Bantu2|Number=Plur	2	obj	_	Gloss=2-children|Eng=children
+
+# sent_id = bas-hm2014-np-poss
+# text = bibox bi boonge
+# text_eng = the children's boxes
+# text_fra = les boîtes des enfants
+# source = Hamlaoui & Makasso (2014), connective NP ("8-boxes 8.CONN 2-children")
+1	bibox	box	NOUN	_	NounClass=Bantu8|Number=Plur	0	root	_	Gloss=8-boxes|Eng=boxes
+2	bi	bi	ADP	_	NounClass=Bantu8	3	case	_	Gloss=8.CONN|Eng=of
+3	boonge	oonge	NOUN	_	NounClass=Bantu2|Number=Plur	1	nmod:poss	_	Gloss=2-children|Eng=children
+
+# sent_id = bas-cv-who
+# text = Bes bo nje ?
+# text_eng = Who are we?
+# text_fra = Qui sommes-nous ?
+# source = corpora/opus/Mozilla-l10n_bas.mono.txt ("Bés bo nje?")
+1	Bes	bes	PRON	_	Person=1|Number=Plur	3	nsubj	_	Gloss=1PL|Eng=we
+2	bo	bo	AUX	_	Person=3|Number=Plur	3	cop	_	Gloss=COP|Eng=are
+3	nje	nje	PRON	_	PronType=Int	0	root	_	Gloss=who|Eng=who
+4	?	?	PUNCT	_	_	3	punct	_	_
+
+# sent_id = bas-nws-sun
+# text = Hanga hiboroo baj ni nguy
+# text_practical = Hanga hi boroo baj ni nguy
+# text_eng = The sun began to shine with strength.
+# text_fra = Le soleil se mit à briller avec force.
+# source = Makasso & Lee (2015), North Wind and the Sun; docs/basaa.pdf
+1	Hanga	hanga	NOUN	_	NounClass=Bantu9|Number=Sing	2	nsubj	_	Gloss=9.sun|Eng=sun
+2	hiboroo	boroo	VERB	_	Aspect=Incep|NounClass=Bantu9	0	root	_	Gloss=9.AGR-start|Morph=hi-boroo|Eng=began
+3	baj	baj	VERB	_	VerbForm=Inf	2	xcomp	_	Gloss=shine|Eng=shine
+4	ni	ni	ADP	_	_	5	case	_	Gloss=with|Eng=with
+5	nguy	nguy	NOUN	_	NounClass=Bantu9	2	obl	_	Gloss=9.strength|Eng=strength

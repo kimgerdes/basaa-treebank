@@ -1,0 +1,12 @@
+id	file	dur_s	basaa_ipa	segmentation	gloss	english	french
+bas_s01	bas_s01_child_speaks_basaa.wav	2.3	maàŋgɛ́ á m̀-pɔ́ɾɔ́ ɓasǎː	maàŋgɛ́ a m̀-pɔ́ɾɔ́ ɓasáa	child 1SBJ PRS-speak Basaa	the child speaks Basaa	l'enfant parle le basaa
+bas_s02	bas_s02_child_takes_wife.wav	2.4	maàŋgɛ́ á m̀-ɓíː ŋwáː	maàŋgɛ́ a m̀-ɓíi ŋwáa	child 1SBJ PRS-take wife	the child takes a wife	l'enfant prend une épouse
+bas_s03	bas_s03_child_bought_doughnuts.wav	2.2	maàŋgɛ́ á ǹ-sɔ́mb makálà	maàŋgɛ́ a ǹ-sɔ́mb ma-kálà	child 1SBJ PST-buy 6-doughnut	the child has bought doughnuts	l'enfant a acheté des beignets
+bas_s04	bas_s04_child_eats_doughnuts.wav	1.8	maàŋgɛ́ á ń-ʤɛ́ makálà	maàŋgɛ́ a ń-ʤɛ́ ma-kálà	child 1SBJ PRS-eat 6-doughnut	the child eats doughnuts	l'enfant mange des beignets
+bas_s05	bas_s05_child_died.wav	1.5	maàŋgɛ́ á ǹ-ʧéʔ	maàŋgɛ́ a ǹ-ʧéʔ	child 1SBJ PST-die	the child has died	l'enfant est mort
+bas_s06	bas_s06_child_going_market.wav	1.7	maàŋgɛ́ á ŋ́-kɛ̀ í ɓòm	maàŋgɛ́ a ŋ́-kɛ̀ í ɓòm	child 1SBJ PRS-go LOC market	the child is going to market	l'enfant va au marché
+bas_s07	bas_s07_child_dried_up.wav	1.9	maàŋgɛ́ á ŋ̀-kòr̥	maàŋgɛ́ a ŋ̀-kòr	child 1SBJ PST-dry.up	the child has dried up a lot	l'enfant s'est beaucoup asséché
+bas_s08	bas_s08_child_drunk.wav	1.2	maàŋgɛ́ á ǹ-ɲɔ́	maàŋgɛ́ a ǹ-ɲɔ́	child 1SBJ PST-drink	the child has drunk	l'enfant a bu
+bas_s09	bas_s09_child_smiled.wav	1.5	maàŋgɛ́ á ǹ-ɲíː sú	maàŋgɛ́ a ǹ-ɲíi sú	child 1SBJ PST-smile ?	the child has smiled	l'enfant a souri
+bas_s10	bas_s10_child_read_book.wav	2.1	maàŋgɛ́ á ŋ̀-áŋ kâːr̥	maàŋgɛ́ a ŋ̀-áŋ kâar	child 1SBJ PST-read book	the child has read a book	l'enfant a lu un livre
+bas_NWS	bas_NWS_north_wind_and_sun.wav	52.4	(connected passage, 9 sentences)	see ../../treebank/	(see syntactic_analysis.md)	The North Wind and the Sun	La bise et le soleil
