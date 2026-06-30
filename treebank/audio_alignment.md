@@ -42,7 +42,7 @@ click a single word to hear its span.
 
 ## Applying it to this Basaa treebank
 
-`basaa_sample.conllu` currently has no audio fields. To make it playable:
+`basaa_sample.ud.conllu` currently has no audio fields. To make it playable:
 
 1. **Host the audio** at a stable public URL (Naija uses Huma-Num; GitHub raw, a
    project server, or any static host works). One file per sentence, or one long
@@ -85,7 +85,7 @@ split into sentence spans (the 10 child sentences are done).
 ## Status detail (checked 2026-06-30)
 
 - **Trees only (no audio):** ready now. `basaa_sample.sud.conllu`, `basaa_aligned.sud.conllu`,
-  `basaa_sample.conllu` are valid CoNLL-U and import straight into Arborator-Grew; `Gloss=` shows as a
+  `basaa_sample.ud.conllu` are valid CoNLL-U and import straight into Arborator-Grew; `Gloss=` shows as a
   gloss tier. Nothing missing for the dependency/SUD view.
 - **With playable audio:** `basaa_aligned.arborator.sud.conllu` is generated — it adds
   `# sound_url =` and per-token `AlignBegin/AlignEnd` (ms) to the 10 audio-aligned child sentences.

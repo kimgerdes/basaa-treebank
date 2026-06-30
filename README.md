@@ -50,7 +50,7 @@ and linked instead).
 
 The **treebank annotations, glosses, lexicon, morphological/syntactic analyses, rules and prose** in
 this repository are © the project authors (Kim Gerdes and collaborators) and released under
-**[Creative Commons Attribution 4.0 International (CC‑BY‑4.0)](LICENSE)**.
+**[Creative Commons Attribution-ShareAlike 4.0 International (CC‑BY‑SA‑4.0)](LICENSE)**.
 The **scripts** (`treebank/*.py`) are additionally available under the **MIT License**.
 If you use the treebank, please cite it (see *Citation* below) and attribute the underlying sources.
 
@@ -77,7 +77,7 @@ underpin the glossing and syntactic analysis here.
 ## Citation
 
 > Gerdes, K. and collaborators (2026). *Basaa (A43) audio-aligned SUD treebank* (v0.1).
-> Annotations CC‑BY‑4.0. Speech © IPA/CUP (Makasso & Lee 2015), used by reference.
+> Annotations CC‑BY‑SA‑4.0. Speech © IPA/CUP (Makasso & Lee 2015), used by reference.
 
 Underlying linguistic sources to cite alongside: Makasso & Lee (2015); Hamlaoui & Makasso (2014, 2015);
 Hyman (2003). See [`docs/SOURCES.md`](docs/SOURCES.md).

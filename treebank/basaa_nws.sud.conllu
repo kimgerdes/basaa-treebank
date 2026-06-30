@@ -1,6 +1,8 @@
 # === Basaa — North Wind & the Sun (SUD) ===
 # 11 clause units, one shared recording. TRANSCRIPTION PROVISIONAL, PARSE DRAFT —
 # refine by listening in Arborator (each token is clickable).
+# Subject-concord is BOUND onto the verb (NounClass feature); spaced form in # text_practical.
+# Flagged cases (MISC Flag=) are listed in nws_concord_review.md.
 
 # sent_id = bas_nws01
 # text = mbebi mabera ni hanga baba pehmba
@@ -11,7 +13,7 @@
 2	mabera	mabera	PROPN	_	_	1	mod	_	Gloss=north
 3	ni	ni	CCONJ	_	_	4	cc	_	Gloss=with
 4	hanga	hanga	NOUN	_	_	1	conj	_	Gloss=sun
-5	baba	ba	AUX	_	NounClass=Bantu2	6	aux	_	Gloss=2.AGR-be|Morph=ba-ba|Flag=concord 2.AGR attaches to AUXILIARY 'ba'(be), not main verb 'pehmba' — confirm host by ear
+5	baba	ba	AUX	_	NounClass=Bantu2	6	aux	_	Gloss=2.AGR-be|Morph=ba-ba|Flag=concord 2.AGR attaches to AUX 'ba'(be), not main verb 'pehmba' — confirm host by ear
 6	pehmba	pehmba	VERB	_	_	0	root	_	Gloss=argue
 
 # sent_id = bas_nws02
@@ -68,7 +70,7 @@
 1	kori	kori	NOUN	_	_	6	subj	_	Gloss=coat
 2	jee	jee	PRON	_	_	1	mod	_	Gloss=his
 3	nyen	nyen	PRON	_	_	1	mod	_	Gloss=the.one
-4	agwee	gwee	VERB	_	NounClass=Bantu1	6	dep	_	Gloss=1.AGR-have|Morph=a-gwee|Flag=draft attached 'a' to root 'lo'; refolded onto 'gwee' (the verb it marks) — confirm
+4	agwee	gwee	VERB	_	NounClass=Bantu1	6	dep	_	Gloss=1.AGR-have|Morph=a-gwee|Flag=draft attached 'a' to root 'lo'; refolded onto 'gwee' — confirm
 5	nguy	nguy	NOUN	_	_	4	comp:obj	_	Gloss=strength
 6	lo	lo	VERB	_	_	0	root	_	Gloss=surpass
 7	nunu	nunu	PRON	_	_	6	comp:obj	_	Gloss=this.one
@@ -94,7 +96,7 @@
 1	ndi	ndi	CCONJ	_	_	6	cc	_	Gloss=but
 2	kii	kii	SCONJ	_	_	6	mark	_	Gloss=as
 3	jo	jo	PRON	_	_	6	subj	_	Gloss=him
-4	ibe	be	AUX	_	NounClass=Bantu9	6	aux	_	Gloss=9.AGR-be|Morph=i-be|Flag='i'(it) folds onto AUXILIARY 'be'; sentence parse is rough (jah self-loop fixed) — reparse by ear
+4	ibe	be	AUX	_	NounClass=Bantu9	6	aux	_	Gloss=9.AGR-be|Morph=i-be|Flag='i'(it) folds onto AUX 'be'; sentence parse is rough — reparse by ear
 5	hongoh	hongoh	VERB	_	_	0	root	_	Gloss=blow
 6	jah	jah	ADV	_	_	5	mod	_	Gloss=also
 7	mur	mur	NOUN	_	_	8	subj	_	Gloss=man

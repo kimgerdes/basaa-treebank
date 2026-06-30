@@ -13,11 +13,11 @@ download links for all CoNLL-U files. Useful for sanity-checking the audio befor
 
 | File | Sentences | Audio | Use |
 |---|---|---|---|
-| **`basaa_audio.arborator.conllu`** | 21 | ✅ playable | **main** — 10 isolated "child" sentences (clean) + 11 *North Wind & the Sun* clause units (draft) |
+| **`basaa_audio.arborator.sud.conllu`** | 21 | ✅ playable | **main** — 10 isolated "child" sentences (clean) + 11 *North Wind & the Sun* clause units (draft) |
 | `basaa_sample.sud.conllu` | 5 | — | literature examples (grandfather/children, connective NP, copula) — clean SUD, no audio |
 
 Both are in this folder, and also hosted at:
-- `https://elizia.net/basaa/basaa_audio.arborator.conllu`
+- `https://elizia.net/basaa/basaa_audio.arborator.sud.conllu`
 - `https://elizia.net/basaa/basaa_aligned.arborator.sud.conllu` (child sentences only)
 - `https://elizia.net/basaa/basaa_nws.arborator.sud.conllu` (NWS only)
 
@@ -27,7 +27,7 @@ Both are in this folder, and also hosted at:
 2. **Create a new project** — e.g. name `Basaa_A43`. Set it to your preferred visibility. Choose the
    **SUD** annotation scheme (the trees use SUD relations: `subj`, `comp:obj`, `comp:obl`, `comp:pred`,
    `mod`, `dep`, `case`, `mark`, `cc`, `conj`, `det`).
-3. **Import / Add data → upload CoNLL-U** and select `basaa_audio.arborator.conllu`
+3. **Import / Add data → upload CoNLL-U** and select `basaa_audio.arborator.sud.conllu`
    (and optionally `basaa_sample.sud.conllu`). Keep the existing `sent_id`s.
 4. Open a sentence. A **play button** appears (from `# sound_url`); each token is clickable to hear its
    slice (from `AlignBegin/AlignEnd`). Try `bas_s06` ("the child is going to market") — short and clean.

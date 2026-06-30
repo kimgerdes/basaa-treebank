@@ -6,7 +6,7 @@ gloss lexicon (`../glossary/`) and glossed sources in `../docs`. Machine-readabl
 - [`basaa_sample.sud.conllu`](basaa_sample.sud.conllu) — 5 sentences from the literature.
 - [`basaa_aligned.sud.conllu`](basaa_aligned.sud.conllu) — **10 sentences aligned to audio** in
   `../recordings/aligned/` (Makasso & Lee 2015 sound files). This makes the treebank *speech-grounded*.
-- [`basaa_sample.conllu`](basaa_sample.conllu) — the original **UD** version, kept for comparison.
+- [`basaa_sample.ud.conllu`](basaa_sample.ud.conllu) — the original **UD** version, kept for comparison.
 
 Method: **gloss first, then attach.** Each token carries its Leipzig gloss in `MISC Gloss=`, so every
 file is simultaneously interlinear glossed text **and** a dependency treebank.
@@ -87,14 +87,13 @@ Bés bo  njé ?
 ## 5. North Wind & the Sun clause — verbal complement + adjunct PP
 
 ```
-haŋga hí     ɓoroo  ɓaj    ni    ŋguy
-sun   9.AGR  begin  shine  with  strength
+haŋga    hí-ɓoroo      ɓaj    ni    ŋguy
+9.sun    9.AGR-begin   shine  with  9.strength
 'The sun began to shine with strength.'
 ```
 ```
-        ɓoroo (root, 'begin')
+        híɓoroo (root, '9.AGR-begin')   ← concord hí- bound onto the verb (NounClass=Bantu9)
         ├─subj──────▶ haŋga
-        ├─dep───────▶ hí          (concord — FLAG, see below)
         └─comp:obj──▶ ɓaj 'shine'
                         └─mod──▶ ni 'with'
                                    └─comp:obj──▶ ŋguy 'strength'

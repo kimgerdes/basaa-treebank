@@ -1,6 +1,8 @@
 # === Basaa — North Wind & the Sun (SUD, audio for Arborator) ===
 # 11 clause units, one shared recording. TRANSCRIPTION PROVISIONAL, PARSE DRAFT —
 # refine by listening in Arborator (each token is clickable).
+# Subject-concord is BOUND onto the verb (NounClass feature); spaced form in # text_practical.
+# Flagged cases (MISC Flag=) are listed in nws_concord_review.md.
 
 # sent_id = bas_nws01
 # text = mbebi mabera ni hanga baba pehmba
@@ -14,7 +16,7 @@
 2	mabera	mabera	PROPN	_	_	1	mod	_	AlignBegin=4262|AlignEnd=4662|Gloss=north
 3	ni	ni	CCONJ	_	_	4	cc	_	AlignBegin=5843|AlignEnd=5923|Gloss=with
 4	hanga	hanga	NOUN	_	_	1	conj	_	AlignBegin=5983|AlignEnd=6263|Gloss=sun
-5	baba	ba	AUX	_	NounClass=Bantu2	6	aux	_	AlignBegin=6823|AlignEnd=7003|Gloss=2.AGR-be|Morph=ba-ba|Flag=concord 2.AGR attaches to AUXILIARY 'ba'(be), not main verb 'pehmba' — confirm host by ear
+5	baba	ba	AUX	_	NounClass=Bantu2	6	aux	_	AlignBegin=6823|AlignEnd=7003|Gloss=2.AGR-be|Morph=ba-ba|Flag=concord 2.AGR attaches to AUX 'ba'(be), not main verb 'pehmba' — confirm host by ear
 6	pehmba	pehmba	VERB	_	_	0	root	_	AlignBegin=7103|AlignEnd=7423|Gloss=argue
 
 # sent_id = bas_nws02
@@ -83,7 +85,7 @@
 1	kori	kori	NOUN	_	_	6	subj	_	AlignBegin=22210|AlignEnd=22430|Gloss=coat
 2	jee	jee	PRON	_	_	1	mod	_	AlignBegin=22470|AlignEnd=22630|Gloss=his
 3	nyen	nyen	PRON	_	_	1	mod	_	AlignBegin=23890|AlignEnd=24070|Gloss=the.one
-4	agwee	gwee	VERB	_	NounClass=Bantu1	6	dep	_	AlignBegin=24211|AlignEnd=24431|Gloss=1.AGR-have|Morph=a-gwee|Flag=draft attached 'a' to root 'lo'; refolded onto 'gwee' (the verb it marks) — confirm
+4	agwee	gwee	VERB	_	NounClass=Bantu1	6	dep	_	AlignBegin=24211|AlignEnd=24431|Gloss=1.AGR-have|Morph=a-gwee|Flag=draft attached 'a' to root 'lo'; refolded onto 'gwee' — confirm
 5	nguy	nguy	NOUN	_	_	4	comp:obj	_	AlignBegin=24431|AlignEnd=24631|Gloss=strength
 6	lo	lo	VERB	_	_	0	root	_	AlignBegin=24711|AlignEnd=24811|Gloss=surpass
 7	nunu	nunu	PRON	_	_	6	comp:obj	_	AlignBegin=24931|AlignEnd=25151|Gloss=this.one
@@ -115,7 +117,7 @@
 1	ndi	ndi	CCONJ	_	_	6	cc	_	AlignBegin=30293|AlignEnd=30413|Gloss=but
 2	kii	kii	SCONJ	_	_	6	mark	_	AlignBegin=30473|AlignEnd=30613|Gloss=as
 3	jo	jo	PRON	_	_	6	subj	_	AlignBegin=30633|AlignEnd=30713|Gloss=him
-4	ibe	be	AUX	_	NounClass=Bantu9	6	aux	_	AlignBegin=30793|AlignEnd=30993|Gloss=9.AGR-be|Morph=i-be|Flag='i'(it) folds onto AUXILIARY 'be'; sentence parse is rough (jah self-loop fixed) — reparse by ear
+4	ibe	be	AUX	_	NounClass=Bantu9	6	aux	_	AlignBegin=30793|AlignEnd=30993|Gloss=9.AGR-be|Morph=i-be|Flag='i'(it) folds onto AUX 'be'; sentence parse is rough — reparse by ear
 5	hongoh	hongoh	VERB	_	_	0	root	_	AlignBegin=31294|AlignEnd=31634|Gloss=blow
 6	jah	jah	ADV	_	_	5	mod	_	AlignBegin=32214|AlignEnd=32354|Gloss=also
 7	mur	mur	NOUN	_	_	8	subj	_	AlignBegin=32434|AlignEnd=32634|Gloss=man
